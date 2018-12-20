@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: diss.aux
+A level-1 auxiliary file: preface.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: sammendrag.aux
+A level-1 auxiliary file: toc.aux
+A level-1 auxiliary file: notations.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: statistical.aux
+A level-1 auxiliary file: nonspatial.aux
+A level-1 auxiliary file: spatial.aux
+A level-1 auxiliary file: discussion.aux
+A level-1 auxiliary file: nest.aux
+A level-1 auxiliary file: app.aux
+A level-1 auxiliary file: lit.aux
+The style file: chicago.bst
+Database file #1: bib/bib.bib
+Warning--no number and no volume in abbott2013brain
+Warning--page numbers missing in abbott2013brain
+Warning--page numbers missing in Eppler:PyNEST
+Warning--page numbers missing in nordlie2009visualizing
+Warning--empty organization in plesser2012topo
+You've used 26 entries,
+            2861 wiz_defined-function locations,
+            792 strings with 9755 characters,
+and the built_in function-call counts, 19904 in all, are:
+= -- 1553
+> -- 1725
+< -- 5
++ -- 539
+- -- 611
+* -- 1845
+:= -- 3737
+add.period$ -- 81
+call.type$ -- 26
+change.case$ -- 203
+chr.to.int$ -- 26
+cite$ -- 31
+duplicate$ -- 492
+empty$ -- 1073
+format.name$ -- 679
+if$ -- 3633
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 28
+newline$ -- 133
+num.names$ -- 266
+pop$ -- 157
+preamble$ -- 1
+purify$ -- 365
+quote$ -- 0
+skip$ -- 543
+stack$ -- 0
+substring$ -- 882
+swap$ -- 170
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 470
+warning$ -- 5
+while$ -- 265
+width$ -- 0
+write$ -- 354
+(There were 5 warnings)

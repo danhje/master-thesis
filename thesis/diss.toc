@@ -1,0 +1,45 @@
+\contentsline {chapter}{Preface}{i}{chapter*.1}
+\select@language {american}
+\select@language {american}
+\contentsline {chapter}{Abstract}{iii}{chapter*.2}
+\contentsline {chapter}{Sammendrag}{v}{chapter*.3}
+\contentsline {chapter}{List of Figures}{x}{chapter*.5}
+\contentsline {chapter}{List of Tables}{xi}{chapter*.6}
+\contentsline {chapter}{List of Symbols}{xiii}{chapter*.7}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Statistical testing}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Pearson's chi-squared test}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}The Kolmogorov-Smirnov test}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}The $Z$-test}{13}{section.2.3}
+\contentsline {chapter}{\numberline {3}Distribution of connections}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Random convergent connections}{15}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Implementation}{16}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Results}{17}{subsection.3.1.2}
+\contentsline {subsubsection}{Sensitivity}{19}{figure.caption.13}
+\contentsline {section}{\numberline {3.2}Random divergent connections}{22}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Implementation}{22}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Results}{23}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Automated test procedure}{23}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Implementation}{24}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Spatially structured networks}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Two-dimensional space}{27}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Implementation}{30}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Results}{32}{subsection.4.1.2}
+\contentsline {subsubsection}{Sensitivity}{33}{figure.caption.19}
+\contentsline {section}{\numberline {4.2}Three-dimensional space}{35}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Implementation}{38}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Results}{38}{subsection.4.2.2}
+\contentsline {subsubsection}{Sensitivity}{39}{figure.caption.24}
+\contentsline {section}{\numberline {4.3}Automated test procedure}{40}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Implementation}{41}{subsection.4.3.1}
+\contentsline {chapter}{\numberline {5}Discussion}{43}{chapter.5}
+\contentsline {subsubsection}{Perspectives for future research}{44}{chapter.5}
+\contentsline {chapter}{\numberline {A}NEST - A short tutorial}{47}{appendix.A}
+\contentsline {subsubsection}{Spatially structured networks and the NEST Topology module}{51}{lstnumber.-9.13}
+\contentsline {chapter}{\numberline {B}Test script for random convergent connections}{59}{appendix.B}
+\contentsline {chapter}{\numberline {C}Test script for random divergent connections}{63}{appendix.C}
+\contentsline {chapter}{\numberline {D}Automated test suite for random convergent and divergent connections}{67}{appendix.D}
+\contentsline {chapter}{\numberline {E}Test script for 2D spatially structured network}{69}{appendix.E}
+\contentsline {chapter}{\numberline {F}Test script for 3D spatially structured network}{73}{appendix.F}
+\contentsline {chapter}{\numberline {G}Automated test suite for spatially structured networks}{77}{appendix.G}
+\contentsline {chapter}{References}{81}{section*.29}

@@ -1,0 +1,180 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Abbott}{Abbott}{2013}]{abbott2013brain}
+Abbott, A. (2013).
+\newblock Brain-simulation and graphene projects win billion-euro competition.
+\newblock {\em Nature\/}.
+
+\bibitem[\protect\citeauthoryear{Brette and Gerstner}{Brette and
+  Gerstner}{2005}]{brette2005adaptive}
+Brette, R. and W.~Gerstner (2005).
+\newblock Adaptive exponential integrate-and-fire model as an effective
+  description of neuronal activity.
+\newblock {\em Journal of Neurophysiology\/}~{\em 94\/}(5), 3637--3642.
+
+\bibitem[\protect\citeauthoryear{Brette, Rudolph, Carnevale, Hines, Beeman,
+  Bower, Diesmann, Morrison, Goodman, Jr., Zirpe, Natschl{\"a}ger, Pecevski,
+  Ermentrout, Djurfeldt, Lansner, Rochel, Vieville, Muller, Davison, Boustani,
+  and Destexhe}{Brette et~al.}{2007}]{Bret:2007(349)}
+Brette, R., M.~Rudolph, T.~Carnevale, M.~Hines, D.~Beeman, J.~M. Bower,
+  M.~Diesmann, A.~Morrison, P.~H. Goodman, F.~C.~H. Jr., M.~Zirpe,
+  T.~Natschl{\"a}ger, D.~Pecevski, B.~Ermentrout, M.~Djurfeldt, A.~Lansner,
+  O.~Rochel, T.~Vieville, E.~Muller, A.~P. Davison, S.~E. Boustani, and
+  A.~Destexhe (2007).
+\newblock Simulation of networks of spiking neurons: A review of tools and
+  strategies.
+\newblock {\em J Comput Neurosci\/}~{\em 23}, 349--398.
+
+\bibitem[\protect\citeauthoryear{Chang and Roth}{Chang and
+  Roth}{2001}]{Chang07092001}
+Chang, G. and C.~B. Roth (2001).
+\newblock Structure of {M}sb{A} from {E}.~coli: A homolog of the multidrug
+  resistance {ATP} binding cassette ({ABC}) transporters.
+\newblock {\em Science\/}~{\em 293\/}(5536), 1793--1800.
+
+\bibitem[\protect\citeauthoryear{Crook, Bednar, Berger, Cannon, Davison,
+  Djurfeldt, Eppler, Kriener, Furber, Graham, et~al.}{Crook
+  et~al.}{2012}]{crook2012creating}
+Crook, S.~M., J.~A. Bednar, S.~Berger, R.~Cannon, A.~P. Davison, M.~Djurfeldt,
+  J.~Eppler, B.~Kriener, S.~Furber, B.~Graham, et~al. (2012).
+\newblock Creating, documenting and sharing network models.
+\newblock {\em Network: Computation in Neural Systems\/}~{\em 23\/}(4),
+  131--149.
+
+\bibitem[\protect\citeauthoryear{Dijkstra, Dijkstra, and Dijkstra}{Dijkstra
+  et~al.}{1970}]{dijkstra1970notes}
+Dijkstra, E.~W., E.~W. Dijkstra, and E.~W. Dijkstra (1970).
+\newblock {\em Notes on structured programming}.
+\newblock The Netherlands: Technological University Eindhoven.
+
+\bibitem[\protect\citeauthoryear{Djurfeldt}{Djurfeldt}{2012}]{djurfeldt2012connection}
+Djurfeldt, M. (2012).
+\newblock The connection-set algebra---a novel formalism for the representation
+  of connectivity structure in neuronal network models.
+\newblock {\em Neuroinformatics\/}~{\em 10\/}(3), 287--304.
+
+\bibitem[\protect\citeauthoryear{Eppler, Helias, Muller, Diesmann, and
+  Gewaltig}{Eppler et~al.}{2009}]{Eppler:PyNEST}
+Eppler, J.~M., M.~Helias, E.~Muller, M.~Diesmann, and M.-O. Gewaltig (2009).
+\newblock {P}y{NEST}: a convenient interface to the {NEST} simulator.
+\newblock {\em Frontiers in Neuroinformatics\/}~{\em 2\/}(12).
+
+\bibitem[\protect\citeauthoryear{Ewens and Grant}{Ewens and
+  Grant}{2004}]{ewens2004statistical}
+Ewens, W. and G.~Grant (2004).
+\newblock {\em Statistical methods in bioinformatics: an introduction},
+  Volume~10.
+\newblock New York: Springer Science+Business Media.
+
+\bibitem[\protect\citeauthoryear{Gewaltig and Diesmann}{Gewaltig and
+  Diesmann}{2007}]{Gewaltig:NEST}
+Gewaltig, M.-O. and M.~Diesmann (2007).
+\newblock {NEST} ({NE}ural {S}imulation {T}ool).
+\newblock {\em Scholarpedia\/}~{\em 2\/}(4), 1430.
+
+\bibitem[\protect\citeauthoryear{Gewaltig, Morrison, and Plesser}{Gewaltig
+  et~al.}{2012}]{gewaltig2012nest}
+Gewaltig, M.-O., A.~Morrison, and H.~E. Plesser (2012).
+\newblock {NEST} by example: An introduction to the neural simulation tool
+  {NEST}.
+\newblock In N.~Le~Nov{\`e}re (Ed.), {\em Computational Systems Neurobiology},
+  pp.\  533--558. Dordrecht: Springer Science+Business Media.
+
+\bibitem[\protect\citeauthoryear{Greenwood and Nikulin}{Greenwood and
+  Nikulin}{1996}]{greenwood1996guide}
+Greenwood, P. and M.~Nikulin (1996).
+\newblock {\em A guide to chi-squared testing}.
+\newblock New York: Wiley.
+
+\bibitem[\protect\citeauthoryear{Hill and Tononi}{Hill and
+  Tononi}{2005}]{hill2005modeling}
+Hill, S. and G.~Tononi (2005).
+\newblock Modeling sleep and wakefulness in the thalamocortical system.
+\newblock {\em Journal of Neurophysiology\/}~{\em 93\/}(3), 1671--1698.
+
+\bibitem[\protect\citeauthoryear{Huizinga and Kolawa}{Huizinga and
+  Kolawa}{2007}]{huizinga2007automated}
+Huizinga, D. and A.~Kolawa (2007).
+\newblock {\em Automated defect prevention: best practices in software
+  management}.
+\newblock Hoboken, NJ: Wiley-IEEE Computer Society Press.
+
+\bibitem[\protect\citeauthoryear{Izhikevich}{Izhikevich}{2003}]{izhikevich2003simple}
+Izhikevich, E.~M. (2003).
+\newblock Simple model of spiking neurons.
+\newblock {\em {IEEE} Transactions on Neural Networks\/}~{\em 14\/}(6),
+  1569--1572.
+
+\bibitem[\protect\citeauthoryear{Kriener}{Kriener}{2012}]{kriener2012testconn}
+Kriener, B. (2012).
+\newblock Testing connectivity in spatial networks.
+\newblock Internal report.
+
+\bibitem[\protect\citeauthoryear{L'Ecuyer}{L'Ecuyer}{2004}]{Lecu:2004(35)}
+L'Ecuyer, P. (2004).
+\newblock Random number generation.
+\newblock In J.~E. Gentle, W.~Haerdle, and Y.~Mori (Eds.), {\em Handbook of
+  Computational Statistics}, pp.\  35--70. Springer-Verlag.
+
+\bibitem[\protect\citeauthoryear{L'Ecuyer and Simard}{L'Ecuyer and
+  Simard}{2007}]{lecuyer2007testu01}
+L'Ecuyer, P. and R.~Simard (2007).
+\newblock Test{U}01: A {C} library for empirical testing of random number
+  generators.
+\newblock {\em {ACM} Transactions on Mathematical Software\/}~{\em 33\/}(4),
+  22.
+
+\bibitem[\protect\citeauthoryear{Miller}{Miller}{2006}]{Miller22122006}
+Miller, G. (2006).
+\newblock A scientist's nightmare: Software problem leads to five retractions.
+\newblock {\em Science\/}~{\em 314\/}(5807), 1856--1857.
+
+\bibitem[\protect\citeauthoryear{Nordlie and Plesser}{Nordlie and
+  Plesser}{2010}]{nordlie2009visualizing}
+Nordlie, E. and H.~E. Plesser (2010).
+\newblock Visualizing neuronal network connectivity with connectivity pattern
+  tables.
+\newblock {\em Frontiers in Neuroinformatics\/}~{\em 3\/}(39).
+
+\bibitem[\protect\citeauthoryear{Panik}{Panik}{2005}]{panik2005advanced}
+Panik, M.~J. (2005).
+\newblock {\em Advanced statistics from an elementary point of view}.
+\newblock Burlington, MA: Elsevier Academic Press.
+
+\bibitem[\protect\citeauthoryear{Plesser and Austvoll}{Plesser and
+  Austvoll}{2009}]{plesser2009specification}
+Plesser, H.~E. and K.~Austvoll (2009).
+\newblock Specification and generation of structured neuronal network models
+  with the {NEST} {T}opology module.
+\newblock {\em BMC Neuroscience\/}~{\em 10}, P56.
+
+\bibitem[\protect\citeauthoryear{Plesser and Enger}{Plesser and
+  Enger}{2012}]{plesser2012topo}
+Plesser, H.~E. and H.~Enger (2012).
+\newblock {\em {NEST} {T}opology User Manual for {NEST} 2.2}.
+
+\bibitem[\protect\citeauthoryear{Plesser, Eppler, Morrison, Diesmann, and
+  Gewaltig}{Plesser et~al.}{2007}]{plesser2007efficient}
+Plesser, H.~E., J.~M. Eppler, A.~Morrison, M.~Diesmann, and M.-O. Gewaltig
+  (2007).
+\newblock Efficient parallel simulation of large-scale neuronal networks on
+  clusters of multiprocessor computers.
+\newblock In A.-M. Kermarrec, L.~Boug{\'e}, and T.~Priol (Eds.), {\em Euro-Par
+  2007 Parallel Processing}, Volume 4641 of {\em Lecture Notes in Computer
+  Science}, pp.\  672--681. Springer Berlin Heidelberg.
+
+\bibitem[\protect\citeauthoryear{{The Human Brain Project Preparatory Study
+  Consortium}}{{The Human Brain Project Preparatory Study
+  Consortium}}{2012}]{hbp2012}
+{The Human Brain Project Preparatory Study Consortium} (2012).
+\newblock The {H}uman {B}rain {P}roject: {A} report to the {E}uropean
+  {C}ommission.
+\newblock Lausanne.
+\newblock http://www.humanbrainproject.eu/files/HBP\_flagship.pdf.
+
+\bibitem[\protect\citeauthoryear{Wang}{Wang}{1993}]{wang1993number}
+Wang, Y. (1993).
+\newblock On the number of successes in independent trials.
+\newblock {\em Statistica Sinica\/}~{\em 3\/}(2), 295--312.
+
+\end{thebibliography}

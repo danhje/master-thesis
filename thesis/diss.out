@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{chapter*.1}{Preface}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{Sammendrag}{}% 3
+\BOOKMARK [0][-]{chapter*.5}{List of Figures}{}% 4
+\BOOKMARK [0][-]{chapter*.6}{List of Tables}{}% 5
+\BOOKMARK [0][-]{chapter*.7}{List of Symbols}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 7
+\BOOKMARK [0][-]{chapter.2}{Statistical testing}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Pearson's chi-squared test}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{The Kolmogorov-Smirnov test}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{The Z-test}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Distribution of connections}{}% 12
+\BOOKMARK [1][-]{section.3.1}{Random convergent connections}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.1.1}{Implementation}{section.3.1}% 14
+\BOOKMARK [2][-]{subsection.3.1.2}{Results}{section.3.1}% 15
+\BOOKMARK [1][-]{section.3.2}{Random divergent connections}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Implementation}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.2}{Results}{section.3.2}% 18
+\BOOKMARK [1][-]{section.3.3}{Automated test procedure}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.1}{Implementation}{section.3.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Spatially structured networks}{}% 21
+\BOOKMARK [1][-]{section.4.1}{Two-dimensional space}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.1.1}{Implementation}{section.4.1}% 23
+\BOOKMARK [2][-]{subsection.4.1.2}{Results}{section.4.1}% 24
+\BOOKMARK [1][-]{section.4.2}{Three-dimensional space}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.2.1}{Implementation}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.2}{Results}{section.4.2}% 27
+\BOOKMARK [1][-]{section.4.3}{Automated test procedure}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.3.1}{Implementation}{section.4.3}% 29
+\BOOKMARK [0][-]{chapter.5}{Discussion}{}% 30
+\BOOKMARK [0][-]{appendix.A}{NEST - A short tutorial}{}% 31
+\BOOKMARK [0][-]{appendix.B}{Test script for random convergent connections}{}% 32
+\BOOKMARK [0][-]{appendix.C}{Test script for random divergent connections}{}% 33
+\BOOKMARK [0][-]{appendix.D}{Automated test suite for random convergent and divergent connections}{}% 34
+\BOOKMARK [0][-]{appendix.E}{Test script for 2D spatially structured network}{}% 35
+\BOOKMARK [0][-]{appendix.F}{Test script for 3D spatially structured network}{}% 36
+\BOOKMARK [0][-]{appendix.G}{Automated test suite for spatially structured networks}{}% 37
+\BOOKMARK [0][-]{section*.29}{References}{}% 38

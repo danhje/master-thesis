@@ -1,0 +1,229 @@
+Bias 1: Increasing p by 0.01 all over.
+
+    test = ConnectLayers_tester(L=1.0, N=1000000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+KS test statistic: 0.00128723193006
+p-value of KS-test of uniformity: 0.869518861619
+Z-score: 0.325330624445
+p-value of Z-test: 0.744930855447
+
+KS test statistic: 0.0169742756759
+p-value of KS-test of uniformity: 1.52329704321e-56
+Z-score: 27.7422210425
+p-value of Z-test: 0.0
+
+=============================================
+
+Bias 1: Increasing p by 0.01 all over.
+
+    test = ConnectLayers_tester(L=1.0, N=100000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+KS test statistic: 0.00581499381786
+p-value of KS-test of uniformity: 0.462720555656
+Z-score: 0.757626092308
+p-value of Z-test: 0.448674855367
+
+KS test statistic: 0.0177149392827
+p-value of KS-test of uniformity: 1.47688864601e-06
+Z-score: 8.34176945506
+p-value of Z-test: 0.0
+
+=============================================
+
+Bias 1: Increasing p by 0.01 all over.
+
+    test = ConnectLayers_tester(L=1.0, N=10000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+KS test statistic: 0.0108378374302
+p-value of KS-test of uniformity: 0.963220831663
+Z-score: 1.05991719777
+p-value of Z-test: 0.289182270967
+
+KS test statistic: 0.0197722748779
+p-value of KS-test of uniformity: 0.349785075002
+Z-score: 4.00306778726
+p-value of Z-test: 6.25263771503e-05
+
+=============================================
+
+Bias 1: Increasing p by 0.01 all over.
+
+    test = ConnectLayers_tester(L=1.0, N=1000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+KS test statistic: 0.0633087151803
+p-value of KS-test of uniformity: 0.350565204682
+Z-score: 0.797932711535
+p-value of Z-test: 0.424909539309
+
+KS test statistic: 0.0679826188591
+p-value of KS-test of uniformity: 0.252456260301
+Z-score: 1.42153978142
+p-value of Z-test: 0.155159897059
+
+=============================================
+
+Bias 2: Increasing distance given to kernel by 1 %.
+
+    test = ConnectLayers_tester(L=1.0, N=1000000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+KS test statistic: 0.00128723193006
+p-value of KS-test of uniformity: 0.869518861619
+Z-score: 0.325330624445
+p-value of Z-test: 0.744930855447
+
+KS test statistic: 0.00709239044253
+p-value of KS-test of uniformity: 1.40293468768e-09
+Z-score: 14.0728168723
+p-value of Z-test: 0.0
+
+=============================================
+
+Bias 2: Increasing distance given to kernel by 1 %.
+
+    test = ConnectLayers_tester(L=1.0, N=100000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+Type 'nest.help()' to find out more about NEST.
+KS test statistic: 0.00581499381786
+p-value of KS-test of uniformity: 0.462720555656
+Z-score: 0.757626092308
+p-value of Z-test: 0.448674855367
+
+KS test statistic: 0.010522933366
+p-value of KS-test of uniformity: 0.0193344763808
+Z-score: 5.43554664095
+p-value of Z-test: 5.46286926806e-08
+
+=============================================
+
+Bias 2: Increasing distance given to kernel by 1 %.
+
+    test = ConnectLayers_tester(L=1.0, N=10000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+KS test statistic: 0.0108378374302
+p-value of KS-test of uniformity: 0.963220831663
+Z-score: 1.05991719777
+p-value of Z-test: 0.289182270967
+
+KS test statistic: 0.0141565618286
+p-value of KS-test of uniformity: 0.796353288196
+Z-score: 0.229463060483
+p-value of Z-test: 0.818509028162
+
+=============================================
+
+Bias 2: Increasing distance given to kernel by 1 %.
+
+    test = ConnectLayers_tester(L=1.0, N=1000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+KS test statistic: 0.0633087151803
+p-value of KS-test of uniformity: 0.350565204682
+Z-score: 0.797932711535
+p-value of Z-test: 0.424909539309
+
+KS test statistic: 0.0619160826556
+p-value of KS-test of uniformity: 0.383684079896
+Z-score: 0.352499090186
+p-value of Z-test: 0.724464000665
+
+=============================================
+
+Bias 3: Failing to consider 1 % of nodes as potential target
+
+    test = ConnectLayers_tester(L=1.0, N=1000000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+KS test statistic: 0.00128723193006
+p-value of KS-test of uniformity: 0.869518861619
+Z-score: 0.325330624445
+p-value of Z-test: 0.744930855447
+
+KS test statistic: 0.00193504284776
+p-value of KS-test of uniformity: 0.404230209243
+Z-score: 6.28015400527
+p-value of Z-test: 3.38237882147e-10
+
+=============================================
+
+Bias 3: Failing to consider 1 % of nodes as potential target
+
+    test = ConnectLayers_tester(L=1.0, N=100000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+KS test statistic: 0.00581499381786
+p-value of KS-test of uniformity: 0.462720555656
+Z-score: 0.757626092308
+p-value of Z-test: 0.448674855367
+
+KS test statistic: 0.0111685008758
+p-value of KS-test of uniformity: 0.0094924960623 (Fluke)
+Z-score: 3.8791874414
+p-value of Z-test: 0.000104805973563
+
+=============================================
+
+Bias 3: Failing to consider 1 % of nodes as potential target
+
+    test = ConnectLayers_tester(L=1.0, N=10000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+KS test statistic: 0.0166386805
+p-value of KS-test of uniformity: 0.579830309682
+Z-score: 0.341536610559
+p-value of Z-test: 0.732699648657
+
+KS test statistic: 0.0217111318512
+p-value of KS-test of uniformity: 0.273421542706
+Z-score: 2.10740922098
+p-value of Z-test: 0.03508212301
+
+=============================================
+
+Bias 3: Failing to consider 1 % of nodes as potential target
+
+    test = ConnectLayers_tester(L=1.0, N=10000,
+                                function_name='gaussian', msd=0)
+    ks, p = test.ks_test(control=True, show_network=False, show_PDF=False, show_CDF=False)
+    z, p = test.z_test(control=True)
+
+...
+
+KS test statistic: 0.0459250425946
+p-value of KS-test of uniformity: 0.757478484037
+Z-score: 0.862788183831
+p-value of Z-test: 0.388253937016
+
+
+
+
+
+

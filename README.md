@@ -1,2 +1,13 @@
-# master-thesis
-My master thesis "Statistical tests for connection algorithms for neural networks". Also available at http://brage.bibsys.no/xmlui/bitstream/handle/11250/189117/Hjertholm2013.pdf?sequence=1
+# Master thesis: Statistical tests for connection algorithms for neural networks
+
+Also available through [Brage](http://brage.bibsys.no/xmlui/bitstream/handle/11250/189117/Hjertholm2013.pdf?sequence=1).
+
+
+## Abstract
+
+Simulations of increasingly sophisticated neural network models have accelerated the progress of neuroscience, but have also led to an increased reliance on the simulation software. Testing the quality of this software therefore becomes important. Here we develop test strategies for some of the most common probabilistic connection algorithms used in simulators, and implement these as Python based test suites. We develop approaches to alleviate the problems of statistical software testing, i.e., the unavoidable occurrence of false positives and negatives. The tests are developed for the NEST simulator, but can easily be adapted to work with analogous connection algorithms in other simulators. 
+
+For random connections with predefined in- or out-degree, observed random degrees are compared with expectation using Pearson's chi-squared test. For networks with structure in two- or three-dimensional space, i.e., with a distance-dependent connection probability, the Kolmogorov-Smirnov (KS) test is used to compare the empirical distribution function (EDF) of distances between connected source-target pairs with the expected cumulative distribution (CDF), obtained by numerical integration of the normalized product of the radial distribution of nodes and the distance-dependent connection probability (kernel). A $Z$-test comparing the total number of connections with the expectation is also implemented. For all three of these tests, a two-level test can be used, comparing the distribution of $p$-values from multiple tests of individual network realizations with the expected uniform distribution, using the KS test. This approach results in greatly increased sensitivity. For automated tests used in test suites, an adaptive approach is proposed. Here, one test is performed, and if the result is suspicious, the more thorough two-level test is performed. This approach is fast, as the two-level test is only invoked for a fraction of the test cases under normal circumstances. It also results in a very low rate of false positives.
+
+The probabilistic connection algorithms of NEST were tested under a variety of conditions, e.g.~with different network sizes, different number of virtual processes (VPs) and different distance-dependent connection probability functions (kernels). No evidence of any error or bias was found in the algorithms. The test strategies themselves were shown to detect an array of small errors and biases when these were deliberately introduced into the algorithm. 
+

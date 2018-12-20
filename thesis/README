@@ -1,0 +1,41 @@
+
+Files used to create my dissertation
+------------------------------------
+
+Here are most of the files (except figures) I used to produce my
+dissertation.  This directory contains only the LaTeX files, other
+things are in subdiretores:
+
+figs	   figures
+tabs	   tables
+quotes	   quotations
+scripts	   several useful MATLAB files
+
+Note that the figs and tabs directories (which are empty here), were
+subdivided, so that each chapter had its own figure and table
+directory for better overview.
+
+TeX files are as follows:
+
+thesis.cls      thesis class file, based on book, see comments at
+	        beginning of file
+disscmds.sty	definition of many TeX commands used to make life
+	        easier, especially when typing formulas
+diss.tex	the main dissertation file
+chicago.*	LaTeX and BibTeX style files for the bibliography
+
+The remaining files are files for the individual chapters.
+
+NOTE: This material is provided here to help you to give you ideas on
+      how to use LaTeX best to produce YOUR OWN thesis.  You may copy
+      any LaTeX commands used, etc, but if you want to copy text, you
+      have to ask me first!  Only the files thesis.cls, disscmds.sty,
+      and the MATLAB scripts in subdirectory scripts are provided
+      under the GNU Public License (see scripts/LICENSE.TXT).
+
+      If you want to read my thesis, download it from
+      http://webdoc.sub.gwdg.de/diss/1999/plesser!
+
+      
+Hans Ekkehard Plesser
+hans.plesser@itf.nlh.no

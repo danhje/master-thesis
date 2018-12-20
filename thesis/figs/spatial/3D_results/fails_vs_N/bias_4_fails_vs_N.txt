@@ -1,0 +1,17 @@
+N:     100, KS fails:    6, Z fails:   89
+N:     200, KS fails:    4, Z fails:  100
+N:      50, KS fails:    4, Z fails:   57
+N:      60, KS fails:    6, Z fails:   65
+N:      70, KS fails:    6, Z fails:   71
+N:      80, KS fails:    7, Z fails:   79
+N:      90, KS fails:    6, Z fails:   83
+N:     110, KS fails:    4, Z fails:   91
+N:     120, KS fails:    8, Z fails:   90
+N:     130, KS fails:    4, Z fails:   91
+N:     140, KS fails:    3, Z fails:   96
+N:     150, KS fails:    6, Z fails:   98
+N:     160, KS fails:    5, Z fails:   97
+N:     170, KS fails:    3, Z fails:  100
+N:     180, KS fails:    6, Z fails:   99
+N:     190, KS fails:    5, Z fails:   99
+N:      40, KS fails:    5, Z fails:   47

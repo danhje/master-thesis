@@ -1,0 +1,4 @@
+Runs: 600. Errors: 0. Fails: 3.
+Runs: 600. Errors: 0. Fails: 1.
+Runs: 1800. Errors: 0. Fails: 6.
+TOTALS: 3000. Fails: 10

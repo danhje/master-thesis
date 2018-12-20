@@ -1,0 +1,222 @@
+Bias 1
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=1000)
+    ks, p = test.ks_test(n=100, seed_start=0, control=True)
+
+KS test statistic: 0.09231450607
+p-value of KS-test of uniformity: 0.342214340361
+
+KS test statistic: 0.103006107679
+p-value of KS-test of uniformity: 0.223574246369
+
+======================
+
+Bias 1
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=100)
+    ks, p = test.ks_test(n=100, seed_start=0, control=True)
+
+KS test statistic: 0.0608495904823
+p-value of KS-test of uniformity: 0.852837137832
+
+KS test statistic: 0.113846384974
+p-value of KS-test of uniformity: 0.138499733512
+
+======================
+
+Bias 1
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=100)
+    ks, p = test.ks_test(n=1000, seed_start=0, control=True)
+
+KS test statistic: 0.0322479678628
+p-value of KS-test of uniformity: 0.244574032952
+
+KS test statistic: 0.0774050079205
+p-value of KS-test of uniformity: 1.17113367746e-05
+
+======================
+
+Bias 1
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=1000)
+    ks, p = test.ks_test(n=10000, start_seed=0, control=True)
+
+KS test statistic: 0.00894399839189
+p-value of KS-test of uniformity: 0.400509251427
+
+KS test statistic: 0.0175315197683
+p-value of KS-test of uniformity: 0.00427942537324
+
+======================
+
+Bias 1
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=1000)
+    ks, p = test.ks_test(n=1000, start_seed=0, control=True)
+
+without...
+
+KS test statistic: 0.0319234029026
+p-value of KS-test of uniformity: 0.255034794829
+
+======================
+
+Bias 2
+
+...
+
+======================
+
+Bias 3
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=100)
+    ks, p = test.ks_test(n=10000, start_seed=0, control=True)
+
+without...
+
+KS test statistic: 0.0128367392428
+p-value of KS-test of uniformity: 0.074085077952360121
+
+======================
+
+Bias 3
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=10)
+    ks, p = test.ks_test(n=1000, start_seed=0, control=True)
+
+without...
+
+Failed to detect. p ≈ 0.25 i think.
+
+======================
+
+Bias 3
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=10)
+    ks, p = test.ks_test(n=100000, start_seed=0, control=True)
+
+without...
+
+KS test statistic: 0.00260975867188
+p-value of KS-test of uniformity: 0.50361529816819806
+
+======================
+
+Bias 3
+
+    test = RCC_tester(N_s=10, N_t=10, C=10)
+    ks, p = test.ks_test(n=10000, start_seed=0, control=True)
+
+KS test statistic: 0.0155194071694
+p-value of KS-test of uniformity: 0.016181392195302586
+
+KS test statistic: 0.028614313352
+p-value of KS-test of uniformity: 1.545989656112707e-07
+
+======================
+
+Bias 3
+
+    test = RCC_tester(N_s=100, N_t=100, C=10)
+    ks, p = test.ks_test(n=10000, start_seed=0, control=True)
+
+KS test statistic: 0.0085904404302
+p-value of KS-test of uniformity: 0.45168423697139637
+
+KS test statistic: 0.015267506452
+p-value of KS-test of uniformity: 0.018896307845275399
+
+======================
+
+Bias 4
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=100)
+    ks, p = test.ks_test(n=100, start_seed=0, control=True)
+
+KS test statistic: 0.212481373172
+p-value of KS-test of uniformity: 0.00019310441987996363
+
+======================
+
+Bias 4
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=1000)
+    ks, p = test.ks_test(n=100, start_seed=0, control=True)
+
+KS test statistic: 0.151921745219
+p-value of KS-test of uniformity: 0.017626074797706393
+
+======================
+
+Bias 5
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=100)
+    ks, p = test.ks_test(n=100, start_seed=0, control=True)
+
+KS test statistic: 0.38466673508
+p-value of KS-test of uniformity: 8.0158102377936302e-14
+
+======================
+
+Bias 5
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=1000)
+    ks, p = test.ks_test(n=100, start_seed=0, control=True)
+
+KS test statistic: 0.181758413659
+p-value of KS-test of uniformity: 0.0023093474831790139
+
+======================
+
+Bias 6
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=100)
+    ks, p = test.ks_test(n=1000, start_seed=0, control=True)
+
+KS test statistic: 0.115811537861
+p-value of KS-test of uniformity: 3.8478109587458675e-12
+
+======================
+
+Bias 6
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=1000)
+    ks, p = test.ks_test(n=1000, start_seed=0, control=True)
+
+KS test statistic: 0.0489202202043
+p-value of KS-test of uniformity: 0.016125606369481238
+
+======================
+
+Bias 7
+
+    test = RCC_tester(N_s=10000, N_t=1000, C=100)
+    ks, p = test.ks_test(n=1000, start_seed=0, control=True)
+
+KS test statistic: 0.0445503361665
+p-value of KS-test of uniformity: 0.036629452841133503
+
+======================
+
+Bias 7
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=100)
+    ks, p = test.ks_test(n=1000, start_seed=0, control=True)
+
+KS test statistic: 0.958804041658
+p-value of KS-test of uniformity: 0.0
+
+======================
+
+Bias 7
+
+    test = RCC_tester(N_s=1000, N_t=1000, C=100)
+    ks, p = test.ks_test(n=100, start_seed=0, control=True)
+
+
+
+
+
+
+

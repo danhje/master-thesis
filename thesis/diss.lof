@@ -1,0 +1,39 @@
+\addvspace {10\p@ }
+\select@language {american}
+\select@language {american}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A random divergent connection pattern}}{4}{figure.caption.8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A spatially structured network}}{5}{figure.caption.9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces CDF for $X \sim \mathcal {U}(1, 0)$ and EDF of pseudorandom numbers from a PRNG}}{12}{figure.caption.10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Histogram and EDF of $p$-values from 10,000 chi-squared GOF tests}}{18}{figure.caption.11}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces EDF of 100 $p$-values from the two-level tests procedure}}{19}{figure.caption.12}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The effect of small parameter values on the EDF of $p$-values}}{20}{figure.caption.13}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Distribution of $p$-values after introducing a bias into the connection algorithm}}{21}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration of the derivation of the expression for the radial distribution function}}{28}{figure.caption.15}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The effect of the mask on the radial distribution function}}{29}{figure.caption.16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Exemplary PDF, CDF and connectivity pattern for a network in 2D space, using a Gaussian kernel}}{31}{figure.caption.17}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Theoretical and empirical PDF and CDF of source-target distances using a constant kernel}}{32}{figure.caption.18}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Connectivity pattern with periodic boundary conditions and a source node shifted away from the layer's center}}{33}{figure.caption.19}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Detection rate as a function of network size}}{34}{figure.caption.20}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Illustration of the effect of a cubic mask on the radial distribution function}}{36}{figure.caption.21}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Illustration of the derivation of the surface area $E$ of the intersection between adjacent spherical caps}}{37}{figure.caption.22}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Exemplary PDF, CDF and connectivity pattern for a network in 3D space, using a Gaussian kernel}}{38}{figure.caption.23}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Theoretical and empirical PDF and CDF of source-target distances using a constant kernel}}{39}{figure.caption.24}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Example of free two-dimensional layer}}{53}{figure.caption.25}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Example of free three-dimensional layer}}{54}{figure.caption.26}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Example of connectivity pattern}}{56}{figure.caption.27}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Distribution of distances between source node and connected target nodes}}{57}{figure.caption.28}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

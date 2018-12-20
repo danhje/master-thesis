@@ -1,0 +1,220 @@
+Bias 1: Increasing p by 0.01 all over.
+
+    test = ConnectLayers_tester(L=1.0, N=100000, msd=0, threads=1, function_name='constant', function_params=0.8)
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Number of connections: 80259
+KS test statistic: 0.00390806155315
+p-value of KS-test of uniformity: 0.172204049369
+Z-score: 1.15423134477
+p-value of Z-test: 0.248405335091
+
+Number of connections: 81226
+KS test statistic: 0.00404328292252
+p-value of KS-test of uniformity: 0.140438306135
+Z-score: 8.81484897653
+p-value of Z-test: 0.0
+
+Test KS test does absolutely not detect a fixed increase in connection probability with the constant kernel function.
+
+======================
+
+Bias 1: Increasing p by 0.01 all over.
+
+    test = ConnectLayers_tester(L=1.0, N=1000000, msd=0, threads=1, function_name='gaussian')
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Number of connections: 357651
+KS test statistic: 0.002014510828
+p-value of KS-test of uniformity: 0.109712156583
+
+Number of connections: 367598
+KS test statistic: 0.00951432594829
+p-value of KS-test of uniformity: 2.5002976215e-29
+
+======================
+
+Bias 1: Increasing p by 0.01 all over.
+
+    test = ConnectLayers_tester(L=1.0, N=100000, msd=0, threads=1, function_name='gaussian')
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Number of connections: 36068
+KS test statistic: 0.00407038568072
+p-value of KS-test of uniformity: 0.588576654561
+
+KS test statistic: 0.011797919292
+p-value of KS-test of uniformity: 6.42918783885e-05
+
+======================
+
+Bias 1: Increasing p by 0.01 all over.
+
+    test = ConnectLayers_tester(L=1.0, N=10000, msd=0, threads=1, function_name='gaussian')
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Number of connections: 3550
+KS test statistic: 0.0188336922345
+p-value of KS-test of uniformity: 0.161088265219
+Z-score: 0.903846229697
+p-value of Z-test: 0.366076944357
+
+Number of connections: 3641
+KS test statistic: 0.0257720430204
+p-value of KS-test of uniformity: 0.0158665109324
+Z-score: 1.7772365463
+p-value of Z-test: 0.0755293287948
+
+======================
+
+Bias 2: Increasing distance given to kernel by 1 %.
+
+    test = ConnectLayers_tester(L=1.0, N=100000, msd=0, threads=1, function_name='constant')
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Not at all detected if function_name == ''constant'' because kernel function not dependent on distance. 
+
+======================
+
+Bias 2: Increasing distance given to kernel by 1 %.
+
+    test = ConnectLayers_tester(L=1.0, N=1000000, msd=0, threads=1, function_name='gaussian')
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Number of connections: 357651
+KS test statistic: 0.002014510828
+p-value of KS-test of uniformity: 0.109712156583
+
+Number of connections: 352142
+KS test statistic: 0.00408291626229
+p-value of KS-test of uniformity: 1.59283244451e-05
+
+======================
+
+Bias 2: Increasing distance given to kernel by 1 %.
+
+    test = ConnectLayers_tester(L=1.0, N=100000, msd=0, threads=1, function_name='gaussian')
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Number of connections: 36068
+KS test statistic: 0.00407038568072
+p-value of KS-test of uniformity: 0.588576654561
+
+KS test statistic: 0.00879284816137
+p-value of KS-test of uniformity: 0.00823463055817
+
+======================
+
+Bias 2: Increasing distance given to kernel by 1 %.
+
+    test = ConnectLayers_tester(L=1.0, N=10000, msd=0, threads=1, function_name='gaussian')
+    ks, p = test.ks_test(control=True)
+
+Number of connections: 3550
+KS test statistic: 0.0188336922345
+p-value of KS-test of uniformity: 0.161088265219
+
+Number of connections: 3500
+KS test statistic: 0.0131033099408
+p-value of KS-test of uniformity: 0.584962464683
+
+======================
+
+Bias 3: Failing to consider 1 % of nodes as potential target.
+
+    test = ConnectLayers_tester(L=1.0, N=10000, msd=0, threads=1, function_name='gaussian')
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Number of connections: 3550
+KS test statistic: 0.0188336922345
+p-value of KS-test of uniformity: 0.161088265219
+Z-score: 0.903846229697
+p-value of Z-test: 0.366076944357
+
+Number of connections: 3528
+KS test statistic: 0.00910283303575
+p-value of KS-test of uniformity: 0.931866512554
+Z-score: 0.0146728694859
+p-value of Z-test: 0.988293164043
+
+Not detected by the KS test because there is no change to the distribution.
+Nor with the Z-test.
+
+======================
+
+Bias 3: Failing to consider 1 % of nodes as potential target.
+
+    test = ConnectLayers_tester(L=1.0, N=100000, msd=0, threads=1, function_name='gaussian')
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Number of connections: 36068
+KS test statistic: 0.00407038568072
+p-value of KS-test of uniformity: 0.588576654561
+Z-score: 2.56297115631
+p-value of Z-test: 0.0103780669823
+
+Number of connections: 35812
+KS test statistic: 0.00522152429562
+p-value of KS-test of uniformity: 0.282948014089
+Z-score: 3.46402359411
+p-value of Z-test: 0.000532159832718
+
+Not detected by the KS test because there is no change to the distribution.
+The Z-test detects the error.
+
+======================
+
+Bias 3: Failing to consider 1 % of nodes as potential target.
+
+    test = ConnectLayers_tester(L=1.0, N=1000000, msd=0, threads=1, function_name='gaussian')
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Number of connections: 357651
+KS test statistic: 0.002014510828
+p-value of KS-test of uniformity: 0.109712156583
+Z-score: 0.472843790991
+p-value of Z-test: 0.636324629172
+
+Number of connections: 354115
+KS test statistic: 0.00198168268058
+p-value of KS-test of uniformity: 0.123890540342
+Z-score: 8.06879491107
+p-value of Z-test: 6.66133814775e-16
+
+STILL not detected by KS test.
+Detected by Z-test.
+
+======================
+
+Bias 4: Failing to consider 50 % of nodes as potential target.
+
+    test = ConnectLayers_tester(L=1.0, N=1000000, msd=0, threads=1, function_name='gaussian')
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+Number of connections: 357651
+KS test statistic: 0.002014510828
+p-value of KS-test of uniformity: 0.109712156583
+
+Number of connections: 178964
+KS test statistic: 0.00175562511042
+p-value of KS-test of uniformity: 0.639463080663
+
+Not at all detectable because the effect is evenly spread out.
+
+======================
+
+Bias 5: Absolute value of p used as prob. to connect. 
+
+    test = ConnectLayers_tester(L=1.0, N=100000, msd=0, threads=1, function_name='linear', function_params={'c':1.0, 'a':-2})
+    ks, p = test.ks_test(control=True, show_network=True, show_PDF=True, show_CDF=True)
+
+-
+
+Number of connections: 29162
+KS test statistic: 0.0950471550334
+p-value of KS-test of uniformity: 2.96937785605e-229
+
+
+
+
+

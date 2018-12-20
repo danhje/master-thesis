@@ -1,0 +1,169 @@
+%
+%      disscmds.sty
+% 
+%  Style containing helpful commands for math
+%  Hans E. Plesser, Goettingen, 1999
+%
+
+%   Copyright (C) 2001 Hans Ekkehard Plesser
+%
+%   This program is free software; you can redistribute it and/or
+%   modify it under the terms of the GNU General Public License
+%   as published by the Free Software Foundation; either version 2
+%   of the License, or (at your option) any later version.
+%
+%   This program is distributed in the hope that it will be useful,
+%   but WITHOUT ANY WARRANTY; without even the implied warranty of
+%   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%   GNU General Public License for more details.
+%
+%   You should have received a copy of the GNU General Public License
+%   along with this program; if not, write to the Free Software
+%   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+%%%%%%%%%%%%%%%%%% IDENTIFICATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% make sure we require a Latex not older than the one used
+                                % in development
+\NeedsTeXFormat{LaTeX2e}[1996/06/01]
+\ProvidesPackage{disscmds}[1999/03/11 Dissertation Commands for HEP]
+
+%%%%%%%%%%%%%%%%%% INITIALIZATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% load packages that will be needed in diss.cls
+\RequirePackage{amsmath}
+
+%%%%%%%%%%%%%%%%%% MAIN PART %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% (re-)definition of matrix and vector commands
+\renewcommand{\vec}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\mat}[1]{\ensuremath{\mathbf{#1}}}
+
+% upright d for integrals
+\renewcommand{\d}{\,\mathrm{d}}
+
+% calligraphic T
+\newcommand{\T}{\mathcal{T}}
+
+% t with hat, time of last spike
+\newcommand{\that}{\ensuremath{\hat{t}}}
+\newcommand{\hOm}{\ensuremath{\hat{\Omega}}}
+\newcommand{\Om}{\Omega}
+\newcommand{\bpsi}{\boldsymbol{\psi}}
+\newcommand{\bchi}{\boldsymbol{\chi}}
+\newcommand{\PD}[1]{\ensuremath{\bchi^{(#1)}}}
+\newcommand{\qd}[1]{\ensuremath{\mathbf{q}^{(#1)}}}
+\newcommand{\cQ}{\mat{\hat{Q}}}
+
+% punctuation marks used in displayed equations
+\newcommand{\mcomma}{\;,}        
+\newcommand{\mfullstop}{\;.}
+
+% probability
+\newcommand{\Prob}[1]{\text{Prob}\!\left(#1\right)}
+
+
+% conditional probabilities
+\newcommand{\rhoI}[1]{\ensuremath{\rho\left(#1\,|\,I, \that\right)}}
+\newcommand{\Pbed}[2]{\mathcal{P}\!\left(#1\,|\,#2\right)}
+\newcommand{\Pf}[2]{\mathcal{P}_{\!\!f}\!\left(#1\,|\,#2\right)}
+\newcommand{\Ph}[2]{\mathcal{P}_{\!h}\!\left(#1\,|\,#2\right)}
+\newcommand{\Pb}[2]{\mathcal{P}_{\!b}\!\left(#1\,|\,#2\right)}
+\newcommand{\ProbCond}[2]{\text{Prob}\!\left(#1\,|\,#2\right)}
+% \newcommand{\Pre}[2]{\mathcal{P}_r\left(#1\,|\,#2\right)}
+
+\newcommand{\Ttrans}[2]{{T}\left(#1\,|\,#2\right)}
+\newcommand{\Top}{\ensuremath{\mathcal{T}}}
+\newcommand{\phasd}[2]{\chi_{#1}%
+                       \ifthenelse{\equal{#2}{}}{}{\!\left(#2\right)}}
+\newcommand{\phass}{\chi^{(s)}}
+\newcommand{\rhos}{\rho^{(s)}}
+\newcommand{\trho}{\tilde{\rho}} %
+
+\newcommand{\sigmax}{\sigma_{\text{max}}}
+\newcommand{\sigopt}{\sigma^{\text{opt}}}
+\newcommand{\Omax}{\Omega_{\text{max}}}
+\newcommand{\Omopt}{\Omega^{\text{opt}}}
+\newcommand{\snropt}{\SNR^{\text{opt}}}
+\newcommand{\Tres}{T_{\text{res}}}
+\newcommand{\tref}{\tau_{\text{ref}}}
+\newcommand{\Cv}{C_{\text{v}}}
+
+
+% inverse cotangent, tanh
+\DeclareMathOperator{\acot}{acot} 
+\DeclareMathOperator{\atan}{atan} 
+\DeclareMathOperator{\atanh}{atanh} 
+
+% symbol for min arg, symbol below
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% upright symbol for e
+\DeclareMathOperator{\e}{e}
+
+\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\erfc}{erfc}
+
+\renewcommand{\Re}{\text{Re}\,}
+
+\newcommand{\dom}{\Delta\omega}
+
+\newcommand{\hot}{h}     % {\frac{h}{\tau}}
+
+\newcommand{\eps}{\varepsilon}
+
+% equation reference
+\newcommand{\eref}[1]{(\ref{#1})}
+
+% all four possible interval types
+\newcommand{\intcc}[2]{\ensuremath{[\,#1,#2\,]}}
+\newcommand{\intco}[2]{\ensuremath{[\,#1,#2)}}
+\newcommand{\intoc}[2]{\ensuremath{(#1,#2\,]}}
+\newcommand{\intoo}[2]{\ensuremath{(#1,#2)}}
+
+% numbers in scientific notation
+\newcommand{\eenum}[2]{\ensuremath{#1 \cdot 10^{#2}}}
+
+% floor and ceiling
+\newcommand{\ceil}[1]{\ensuremath{\left\lceil #1 \right\rceil}}
+\newcommand{\floor}[1]{\ensuremath{\left\lfloor #1 \right\rfloor}}
+
+% mathbb letters for fields
+\newcommand{\field}[1]{\ensuremath{\mathbb{#1}}}
+
+% Order of
+\newcommand{\Oof}[1]{\ensuremath{{O}(#1)}}
+\newcommand{\oof}[1]{\ensuremath{{o}(#1)}}
+
+% names of programs/code
+\newcommand{\progname}[1]{\texttt{#1}}
+
+% math mode tabular entries
+\newcolumntype{L}{>{$}l<{$}}
+\newcolumntype{C}{>{$}c<{$}}
+\newcolumntype{R}{>{$}r<{$}}
+
+% rank
+\DeclareMathOperator{\rk}{rk}
+
+% hazard
+\newcommand{\hzd}[1]{h_{\text{#1}}}
+
+% sequence of spike times
+\newcommand{\tr}{\mathbf{t}}
+
+% makr degrees with little circle
+\renewcommand{\deg}{^\circ}
+
+\newcommand{\half}{\ensuremath{\tfrac{1}{2}}}
+
+% renewal kernel stuff
+\newcommand{\Kt}[1][\that]{K_{#1}}
+\newcommand{\gt}[1][\that]{g_{#1}}
+
+% temporary stuff
+\newcommand{\dummyfig}{\framebox[0.8\linewidth]{\rule{0mm}{0.2\textheight}}}
+
+
+%% End of file `disscmds.sty'.

@@ -1,0 +1,128 @@
+
+% Setting smaller margins for scripts. 
+
+\newlength{\oldtopmargin}
+\newlength{\oldoddsidemargin}
+\newlength{\oldevensidemargin}
+\newlength{\oldtextwidth}
+\newlength{\oldtextheight}
+\newlength{\oldmarginparwidth}
+\newlength{\oldfootskip}
+\newlength{\oldheadwidth}
+\newlength{\oldvoffset}
+\newlength{\oldhoffset}
+
+\setlength{\oldtopmargin}{\topmargin}
+\setlength{\oldoddsidemargin}{\oddsidemargin}
+\setlength{\oldevensidemargin}{\evensidemargin}
+\setlength{\oldtextwidth}{\textwidth}
+\setlength{\oldtextheight}{\textheight}
+\setlength{\oldmarginparwidth}{\marginparwidth}
+\setlength{\oldfootskip}{\footskip}
+\setlength{\oldheadwidth}{\headwidth}
+\setlength{\oldvoffset}{\voffset}
+\setlength{\oldhoffset}{\hoffset}
+
+\setlength{\topmargin}{1mm}
+\setlength{\oddsidemargin}{5mm}
+\setlength{\evensidemargin}{5mm}
+\setlength{\textwidth}{175mm}
+\setlength{\textheight}{250mm}
+\setlength{\marginparwidth}{15mm}
+\setlength{\footskip}{10mm}
+\setlength{\headwidth}{\textwidth}
+\setlength{\voffset}{-10mm}
+\setlength{\hoffset}{-15mm}
+
+
+
+\begin{landscape}
+\titlespacing*{\chapter}{0pt}{-30pt}{7pt}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{4pt}{\Huge}\chapter{Test script for random convergent connections\label{app:rcc}}
+\setlength{\columnsep}{0.9cm}
+\begin{multicols*}{2}
+\lstinputlisting[basicstyle=\scriptsize\ttfamily, keywords={}, numbers=left, numbersep=5pt]{scripts/test_RCC.py}
+\end{multicols*}
+\end{landscape}
+\clearchapter
+
+
+
+\begin{landscape}
+\titlespacing*{\chapter}{0pt}{-30pt}{7pt}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{4pt}{\Huge}\chapter{Test script for random divergent connections\label{app:rdc}}
+\setlength{\columnsep}{0.9cm}
+\begin{multicols*}{2}
+\lstinputlisting[basicstyle=\scriptsize\ttfamily, keywords={}, numbers=left, numbersep=5pt]{scripts/test_RDC.py}
+\end{multicols*}
+\end{landscape}
+\clearchapter
+
+
+
+\begin{landscape}
+\titlespacing*{\chapter}{0pt}{-30pt}{7pt}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{4pt}{\Huge}\chapter{Automated test suite for random convergent and divergent connections\label{app:unit}}
+\setlength{\columnsep}{0.9cm}
+\begin{multicols*}{2}
+\lstinputlisting[basicstyle=\scriptsize\ttfamily, keywords={}, numbers=left, numbersep=5pt]{scripts/unittest_nonspatial.py}
+\end{multicols*}
+\end{landscape}
+\clearchapter
+
+
+
+\begin{landscape}
+\titlespacing*{\chapter}{0pt}{-30pt}{7pt}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{4pt}{\Huge}\chapter{Test script for 2D spatially structured network\label{app:2D}}
+\setlength{\columnsep}{0.9cm}
+\begin{multicols*}{2}
+\lstinputlisting[basicstyle=\scriptsize\ttfamily, keywords={}, numbers=left, numbersep=5pt]{scripts/test_2D.py}
+\end{multicols*}
+\end{landscape}
+\clearchapter
+
+
+
+\begin{landscape}
+\titlespacing*{\chapter}{0pt}{-30pt}{7pt}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{4pt}{\Huge}
+\chapter{Test script for 3D spatially structured network\label{app:3D}}
+\setlength{\columnsep}{0.9cm}
+\begin{multicols*}{2}
+\lstinputlisting[basicstyle=\scriptsize\ttfamily, keywords={}, numbers=left, numbersep=5pt]{scripts/test_3D.py}
+\end{multicols*}
+\end{landscape}
+
+
+
+\begin{landscape}
+\titlespacing*{\chapter}{0pt}{-30pt}{7pt}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{4pt}{\Huge}
+\chapter{Automated test suite for spatially structured networks\label{app:unit-spatial}}
+\setlength{\columnsep}{0.9cm}
+\begin{multicols*}{2}
+\lstinputlisting[basicstyle=\scriptsize\ttfamily, keywords={}, numbers=left, numbersep=5pt]{scripts/unittest_spatial.py}
+\end{multicols*}
+\end{landscape}
+
+
+
+% Reset defaults
+\setlength{\topmargin}{\oldtopmargin}
+\setlength{\oddsidemargin}{\oldoddsidemargin}
+\setlength{\evensidemargin}{\oldevensidemargin}
+\setlength{\textwidth}{\oldtextwidth}
+\setlength{\textheight}{\oldtextheight}
+\setlength{\marginparwidth}{\oldmarginparwidth}
+\setlength{\footskip}{\oldfootskip}
+\setlength{\headwidth}{\oldheadwidth}
+\setlength{\voffset}{\oldvoffset}
+\setlength{\hoffset}{\oldhoffset}
+% For some reason, the resetting of \textheight doesn't take effect without a \restoregeometry.
+\restoregeometry
+
+
+
+\clearchapter
+

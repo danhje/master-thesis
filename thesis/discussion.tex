@@ -1,0 +1,53 @@
+\chapter{Discussion\label{ch:disc}}
+
+% Summarize the two different testing schemes (non-spatial and spatial). 
+
+We have developed tests for two main types of connection patterns, namely, random convergent and divergent connections with multapses and autapses allowed, and structured networks in two- and three-dimensional space with distance-dependent connection probability. Both tests have been implemented as Python test suites and have been used to test the connection routines in NEST. We emphasize that the test suites can be adapted to work with other simulators, simply by changing the function calls for generating the network and retrieving the resulting connections.
+
+For random connections, a two-level test was proposed. Pearson's chi-squared test is used to test whether nodes are selected randomly and with equal probability. The resulting $p$-values are then compared with the expected uniform distribution using the Kolmogorov-Smirnov (KS) test. Advantages of this approach are increased sensitivity and the ability to detect too good fits as well as poor fits.
+
+For spatially structured networks, expressions for the radial distribution function were derived, both for two- and three-dimensional space. The observed distribution of source-target distances could then be compared with the expected distribution, found as the normalized product of the radial distribution function $\rho(D)$ and the distance-dependent connection probability (kernel) $\mathcal{P}(D)$, using the KS test. 
+
+% Have demonstrated the utility of the test procedures.
+	% Correct data does not give more than expected false positives. 
+			% Even though discrete ...
+			% Investigated effect of distinctness when data is sparse.
+	% Errors in algorithms are detected.
+
+We demonstrated the utility of the tests, both that they are able to detect a range of errors, and that they do not fail more often than expected when there is no error in the algorithms tested. To actually show this, rather than assume it is so, is important, because assumptions used when developing the tests might not be as accurate as assumed. For example, in the case of Pearson's chi-squared goodness-of-fit test, the assumption of uniformly distributed $p$-values is not strictly true, due to the discreteness of the $p$-values. And indeed, for very sparse data, the two-level test procedure used for testing random convergent or divergent connections was shown to not be reliable. It was demonstrated, however, that both tests (1) detect many deliberately introduced errors, and (2) do not report more than the expected fraction of false positives under $H_0$ (as long as data is not too sparse). 
+
+% NEST seems to work
+	% About result on networks without spatial structure.
+	% About results on networks with spatial structure.
+
+The tests were used on NEST's probabilistic connection algorithms, with a range of different parameters, under different conditions. No evidence of errors or biases was found. For example, three-dimensional spatially structured networks with 1,000,000 nodes were created using each of the four kernels (constant, linear, exponential, and Gaussian), and the distribution of distances between connected nodes was tested using the KS test, resulting in the $p$-values 0.726, 0.978, 0.803, and 0.770, consistent with our expectations. This of course does not guarantee that no bias exists. Very small biases, or biases of a kind not easily detectable by the tests (e.g., biases caused by patterns in the underlying PRNG), might, indeed probably do, exist. Still, our confidence in the simulated connection patterns, and therefore the scientific findings based them, has grown.
+
+% Automated test procedure
+	% Proposed an adaptive test strategy.
+	% The parameters can be tweaked so test meets requirements (computational time, false positives, sensitivity)
+	% Something about time.
+
+An additional goal of this work was to develop automated test suites. An adaptive test strategy was proposed as a solution to the extra challenges this entails. A single test is first done on the algorithm being tested. If the resulting $p$-value is deemed suspicious, a two-level test is performed, comparing the $p$-values from tests of multiple network realizations with the expected uniform distribution. Using this strategy, the automated test suites achieve a low rate of false positives, fast run time, and a fairly high sensitivity. In certain cases one might want to opt for a safer alternative and do a small number of initial tests, instead of one, to determine whether more tests should be run. This will increase the sensitivity, while run time and rate of false positives will increase. 
+
+
+
+\subsubsection{Perspectives for future research}
+
+% What are the perspectives for future research?
+	% Testing the underlying PRNGs?
+	% Testing spatially structured networks with fixed in- or out-degree.
+	% Testing spatially structured networks with open boundary conditions and shifted source node.
+
+Variants of the probabilistic network types tested in this work exist, and tests have yet to be developed for these. The test for random convergent or divergent connection routines developed here, for example, assumes that autapses and multapses are allowed, and cannot be used when these are disallowed. Networks with disallowed autapses are relatively straightforward to test. We can simply make sure no node is connected to itself, and do a chi-squared test with the number of nodes available reduced by one. For disallowed multapses, however, an altogether different distribution will result. 
+
+For networks with spatial structure, tests for networks with a prescribed in- or out-degree $C$, as well as a kernel, remain to be developed. It is not entirely clear what is expected from such a connection routine, as a conflict between the two rules occur. In some cases, the value of the kernel is in this case interpreted not as a connection probability, but instead as relative probabilities \cite{plesser2009specification}. With kernel value for node $i$ equal to $k_i$, the relative probability of connecting to node $i$ is $p_i = k_i / K$, where $K = \sum_i k_i$. For such a connection routine, one possible test strategy is to use the chi-squared test, with $p_i C$ as the expectations. 
+
+Another case worth testing is spatially structured networks with open boundary conditions. When the source node is arbitrarily positioned, the boundary effects will in this case lead to somewhat involved expressions for the radial distribution of nodes. 
+
+
+
+\clearchapter
+
+
+
+

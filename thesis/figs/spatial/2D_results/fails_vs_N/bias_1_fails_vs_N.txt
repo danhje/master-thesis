@@ -1,0 +1,17 @@
+N:      10, KS fails:    2, Z fails:    5
+N:    2000, KS fails:    7, Z fails:   17
+N:    4000, KS fails:    8, Z fails:   39
+N:    7000, KS fails:   16, Z fails:   61
+N:   10000, KS fails:   16, Z fails:   67
+N:   15000, KS fails:   24, Z fails:   83
+N:   20000, KS fails:   32, Z fails:   92
+N:   30000, KS fails:   50, Z fails:   98
+N:   40000, KS fails:   58, Z fails:   99
+N:   50000, KS fails:   63, Z fails:  100
+N:   60000, KS fails:   71, Z fails:  100
+N:   70000, KS fails:   79, Z fails:  100
+N:   80000, KS fails:   96, Z fails:  100
+N:   90000, KS fails:   91, Z fails:  100
+N:  100000, KS fails:   93, Z fails:  100
+N:  120000, KS fails:   99, Z fails:  100
+N:  150000, KS fails:   99, Z fails:  100

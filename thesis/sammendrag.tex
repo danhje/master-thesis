@@ -1,0 +1,24 @@
+% !TEX encoding = UTF-8 Unicode
+
+\begin{otherlanguage*}{norsk}
+
+\chapter{Sammendrag}
+
+%BACKGROUND:
+
+Simuleringer av stadig mer sofistikerte nevrale nettverksmodeller har vært med på å drive nevrovitenskapen fremover, men har samtidig ført til en økt avhengighet av simuleringsprogramvare. Å teste kvaliteten til denne programvaren der derfor viktig. Her utvikler vi strategier for testing av noen av de mest brukte koblingsalgoritmene, og vi implementerer disse som Python-baserte testpakker. Vi utvikler metoder for a redusere hyppigheten av type I og type II feil. Testene er utviklet for simulatoren NEST, men kan modifiseres for å fungere med tilsvarende koblingsalgoritmer i andre simulatorer. 
+
+%METHODS:
+
+For tilfeldige koblinger med forhåndsbestemt inn- eller utgrad sammenlignes de observerte tilfeldige gradene med forventningsverdier ved hjelp av Pearsons kjikvadrattest. For nettverk med romlig struktur, dvs. nettverk med en koblingssannsynlighet som avhenger av avstand, brukes Kolmogorov-Smirnov-testen (KS-testen) til å sammenligne den empiriske kumulative fordelingen av avstander mellom sammenkoblede node-par med den forventede kumulative fordelingen, funnet ved numerisk integrasjon av det normaliserte produktet av den radiale fordelingsfunksjonen av noder og den avstandsavhengige koblingssannsynligheten. En Z-test som sammenligner det totale antallet koblinger med forventningsverdien er også implementert. For alle disse testene kan en to-nivå-test anvendes. Denne sammenligner fordelingen av $p$-verdier fra flere tester av individuelle nettverksrealiseringer med den forventede uniforme fordelingen ved hjelp av KS-testen. Dette gir en betraktelig økt sensitivitet. For automatiserte tester brukt i testpakker foreslår vi en adaptiv løsning. Denne går ut på at en enkel test kjøres, og kun dersom resultatet er mistenkelig kjøres den mer grundige to-nivå-testen. På denne måten kan automatiserte tester kjøre fort, siden to-nivå-testen normalt kun vil kjøres for en liten andel av test-tilfellene. I tillegg får vi få feilaktige godkjennelser (type I feil).
+
+%RESULTS:
+
+De tilfeldige koblingsalgoritmene i NEST ble testet under ulike forhold, for eksempel med forskjellig nettverkstørrelse, forskjellig antall virtuelle prosesser og foreskjellige avstandsavhengige koblingssannsynligheter. Det ble ikke funnet noe bevis på feil eller skjevheter i algoritmene. Det ble vist at teststrategiene oppdaget en rekke feil og skjevheter når disse bevisst ble lagt inn i algoritmene. 
+
+
+
+\end{otherlanguage*}
+
+\clearchapter
+
