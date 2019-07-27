@@ -1,6 +1,6 @@
 # Master thesis: Statistical tests for connection algorithms for neural networks
 
-Also available through [Brage](http://brage.bibsys.no/xmlui/bitstream/handle/11250/189117/Hjertholm2013.pdf?sequence=1).
+Also available through [Brage](https://nmbu.brage.unit.no/nmbu-xmlui/bitstream/handle/11250/189117/Hjertholm2013.pdf?sequence=1).
 
 
 ## Abstract
